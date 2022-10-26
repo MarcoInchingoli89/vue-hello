@@ -10,7 +10,12 @@ const { createApp } = Vue
     data() {
       return {
         message: 'Hello Vue!',
-        image: 'https://picsum.photos/200'
+        image: 'https://picsum.photos/200',
+        text: 'text-danger text-center',
+        containerCenter: 'container d-flex justify-content-center',
+        name: " ",
+        lastname: " ",
+        count: 0
       }
     }
   }).mount('#app')
